@@ -42,7 +42,8 @@
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="header-main">
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+			<h1 style="text-align:center;font-size:36px;color:class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+		<img src="http://192.168.5.200/datahubservices/wp-content/uploads/2014/03/copy-DATA-HUB-1.jpg" target="image">
 
 			<div class="search-toggle">
 				<a href="#search-container" class="screen-reader-text"><?php _e( 'Search', 'twentyfourteen' ); ?></a>
