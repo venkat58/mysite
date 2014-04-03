@@ -18,7 +18,7 @@
 
 			<div class="site-info">
 				<?php do_action( 'twentyfourteen_credits' ); ?>
-				<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'twentyfourteen' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'twentyfourteen' ), 'WordPress' ); ?></a> 
+				<a href="<?php echo esc_url( __( 'http://www.datahubservices.com/', 'twentyfourteen' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'twentyfourteen' ), 'Data Hub Services Pvt Ltd.' ); ?></a> 
 			</div><!-- .site-info --> 
 		</footer><!-- #colophon -->
 	</div><!-- #page --> 

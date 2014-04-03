@@ -28,7 +28,7 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
 
-		<?php
+	<?php
 			if ( have_posts() ) :
 				// Start the Loop.
 				while ( have_posts() ) : the_post();
@@ -49,10 +49,20 @@ get_header(); ?>
 				get_template_part( 'content', 'none' );
 
 			endif;
-		?>
+			
+			
+		?>	
+		
+		<?php
+/* If we are on a page, then hide comments */
+
+	
+		
 
 		</div><!-- #content -->
 	</div><!-- #primary -->
+	
+			
 	<?php get_sidebar( 'content' ); ?>
 </div><!-- #main-content -->
 
